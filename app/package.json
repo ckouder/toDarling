@@ -1,0 +1,11 @@
+{
+  "name": "todarling",
+  "version": "1.0.0",
+  "description": "a simple app for michael",
+  "main": "index.js",
+  "author": "ckouder",
+  "license": "MIT",
+  "dependencies": {
+    "watchman": "^1.0.0"
+  }
+}

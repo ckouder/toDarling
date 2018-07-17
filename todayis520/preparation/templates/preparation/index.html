@@ -1,0 +1,45 @@
+<!DOCTYPE <!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- <link href="https://cdn.bootcss.com/normalize/8.0.0/normalize.min.css" rel="stylesheet"> -->
+    <link href="https://cdn.bootcss.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css" />
+    <style>
+        h1,h2 {
+            text-align: center;
+        }
+
+        .fullpage {
+            height: 100vh;
+            width: 100vw;
+        }
+
+        .fullparent {
+            height: 100%;
+            width: 100%;
+        }
+
+        .delay {
+            animation-delay: 100ms;
+        }
+
+        .row {
+            margin: auto;
+        }
+    </style>
+</head>
+<body>
+    <div class="fullpage container-fluid">
+        <div class="fullparent row justify-content-md-center align-items-center">
+            <div class="col-md-6">
+                <h1 class="animated {{animate}}">{{title}}</h1>
+                <p class="animated {{animate}} delay">{{words}}</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
